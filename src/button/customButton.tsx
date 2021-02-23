@@ -12,7 +12,7 @@ const CustomButton = (props: TCustomButtonProps) => {
   const { children, ...antdProps } = props;
 
   return (
-    <div>
+    <div className="custom-button">
       <Button {...antdProps}>{children}</Button>
     </div>
   );

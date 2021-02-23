@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 import pack from './package.json';
 
-import antdTheme from './src/styles/antdTheme.js';
+import antdTheme from './src/styles/antdTheme';
 import menus from './config/menus.js';
 
 const antdVersion = pack.dependencies.antd.split('^')[1];
