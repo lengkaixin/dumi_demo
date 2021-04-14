@@ -136,12 +136,6 @@ export {  version } from 'antd';
 
 
 
-
-
-
-
-
-
 // export type { AffixProps } from './affix';
 // export {  Affix } from './affix';
 // export type { AnchorProps, AnchorLinkProps } from './anchor';

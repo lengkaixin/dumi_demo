@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button, ButtonProps } from 'antd';
+import { Button, ButtonProps, ConfigProvider } from 'antd';
 
 import './index.less';
 
@@ -13,7 +13,9 @@ const CustomButton = (props: TCustomButtonProps) => {
 
   return (
     <div className="custom-button">
+      {/* <ConfigProvider prefixCls="md" iconPrefixCls="mdicon"> */}
       <Button {...antdProps}>{children}</Button>
+      {/* </ConfigProvider> */}
     </div>
   );
 };

@@ -86,7 +86,7 @@ const Editor: React.FC<TEditorProps> = ({
           maxWidth: 'auto',
           overflow: 'hidden',
           border: focused
-            ? `1px solid ${antdTheme['primary-color']}`
+            ? `1px solid ${antdTheme['@primary-color']}`
             : '1px solid #d9d9d9',
           borderRadius: '5px',
         },
